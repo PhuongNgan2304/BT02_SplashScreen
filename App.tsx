@@ -1,12 +1,30 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-
+import React, { useEffect, useState } from 'react';
+import { SplashScreen } from './src/screens';
+import { NavigationContainer } from '@react-navigation/native';
+import AuthNavigator from './src/navigators/AuthNavigator';
+import { StatusBar } from 'react-native';
 const App = () => {
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
-}
-
-export default App
+  // sử dụng usestate để lưu thời gian 1.5 giây
+  const [isShowSplash, setIsShowSplash] = useState(true);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsShowSplash(false);
+    }, 1500);
+    return () => clearTimeout(timeout);
+  }, []);
+  // dùng dấu ! để phủ định điều kiện
+  //background nằm dưới thanh StatusBar
+  return <>
+    <StatusBar barStyle={'dark-content'} translucent backgroundColor={'transparent'} />
+    {
+      !isShowSplash ? (
+        <SplashScreen />
+      ) : (
+        <NavigationContainer>
+          <AuthNavigator />
+        </NavigationContainer>
+      )
+    }
+  </>
+};
+export default App;

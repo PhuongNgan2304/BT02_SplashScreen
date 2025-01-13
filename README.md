@@ -1,4 +1,13 @@
 # LTDDNC_BT02_SplashScreen_Onboarding_Login
+
+### Requirement:
+1. Fucntion SpashScreen, Onboarding and Login
+
+---
+### Result:
+**Screen 1 (SplashScreen - version 0):**
+![SplashScreen](./src/assets/images/result1_splashscreen.png)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -45,7 +54,7 @@ yarn ios
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+This is one way to run your app ï¿½ you can also run it directly from within Android Studio and Xcode respectively.
 
 ## Step 3: Modifying your App
 
