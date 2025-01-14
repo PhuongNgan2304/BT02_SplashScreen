@@ -8,6 +8,12 @@
 **Screen 1 (SplashScreen - version 0):**
 ![SplashScreen](./src/assets/images/result1_splashscreen.png)
 
+**Screen 2 (LoginScreen - version 0):**
+![LoginScreen](./src/assets/images/LoginScreen.png)
+
+**Screen 3 (HomeScreen - version 0):**
+![HomeScreen](./src/assets/images/HomeScreen.png)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started

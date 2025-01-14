@@ -1,6 +1,9 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import TabNavigator from './TabNavigator';
+
+const Stack = createNativeStackNavigator();
+
 const MainNavigatior = () => {
     const Stack = createNativeStackNavigator();
     //Main gọi Tab
