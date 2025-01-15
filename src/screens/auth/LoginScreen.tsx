@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const LoginScreen = () => {
   const handleLogin = async () => {
-    await AsyncStorage.setItem('assetToken', 'trung');
+    //await AsyncStorage.setItem('assetToken', 'trung');
     console.log('Token saved!');
   };
 

@@ -14,6 +14,16 @@
 **Screen 3 (HomeScreen - version 0):**
 ![HomeScreen](./src/assets/images/HomeScreen.png)
 
+**Screen 4 (OnBoardingScreen 1):**
+![HomeScreen](./src/assets/images/OnBoardingScreen1.png)
+
+**Screen 5 (OnBoardingScreen 2):**
+![HomeScreen](./src/assets/images/OnBoardingScreen2.png)
+
+**Screen 6 (OnBoardingScreen 3):**
+![HomeScreen](./src/assets/images/OnBoardingScreen3.png)
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
